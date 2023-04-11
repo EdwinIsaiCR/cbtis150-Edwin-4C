@@ -1,0 +1,572 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+*{
+    font-family: sans-serif;
+}
+
+body{
+  /* display: flexbox; */
+  background-color: antiquewhite;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.header1{
+  position: relative;
+    background-image: url(./img/Fondo1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none; 
+    color:brown;
+}
+
+#Texto{
+    text-align: center;
+    /* pa centrar el texto de arribita :D */
+}
+
+.header2 nav{
+  position: relative;
+    background-color:#0C231E;
+    display: flex; 
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* recuerda que la documentacion del  flex la encuentras en 
+        https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+        checa el justify content en este caso utilice el SPACE-BETWEEN, ahi hay una imagen que lo explica.
+    */
+
+}
+
+
+.opciones a{
+  color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    transition: ease .25s;
+}
+
+.opciones a:hover{
+    color:rgb(155, 174, 107);
+    transform: rotate(0.25s);
+    transition: ease .25s;
+    transition:all .25s;
+}
+
+.relleno{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content{
+  width: 50%;
+}
+.especialidades-title{
+  text-align: left;
+}
+.especialidades{
+  text-align: left;
+}
+.competencias{
+  color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+}
+#title-valor{
+  text-align: center;
+}
+.valores{
+  text-align: left;
+  color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.vision{
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  width: 500px;
+  /* width: 50%; */
+}
+.mision{
+  color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+span{
+    color: cadetblue;
+}
+
+table{
+  /* text-align: center;
+  justify-content: center;
+  align-items: center; */
+  right: 50%;
+  /* border-collapse: collapse; */
+}
+tr, th, td{
+  /* right: 50%; */
+  border-style:solid;
+  border-color: black;
+}
+.title-placita{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-objetivos{
+  width: 150px;
+}
+
+.content-placita{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.img-placitas{
+  text-align: center;
+}
+
+.participantes{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.img-parti{
+  justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+}
+.partis{
+  margin: 5px;
+  padding: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+#parti1{
+  width: 130px;
+}
+#parti2{
+  width: 140px;
+}
+#parti3{
+  width: 105px;
+}
+#parti4{
+  width: 95px;
+}
+#parti5{
+  width: 105px;
+}
+#parti6{
+  width: 135px;
+}
+.win{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.winer{
+  border-style: solid;
+  border-color: gold;
+}
+.especialidades-title{
+  text-align: center;
+}
+
+.especialidades{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.alimentos{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+.constru{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+.conta{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+.logis{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+.programa{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+}
+
+.ofi{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+  flex-grow: 1;
+}
+
+.header3{
+  position: relative;
+    background-color: #337c6c;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.opciones3{
+  margin: 20px;
+}
+.opciones3 a{
+  margin: 10px;
+  padding: 20px;
+  color: antiquewhite;
+}
+.opciones3 a:hover{
+  color:aquamarine;
+  letter-spacing: 1px;
+  transition: ease .25s;
+}
+h2{
+  text-align: center;
+}
+#verde{
+  border-radius: 50px;
+  background-color: #337c6c;
+}
+#social{
+  border-radius: 50px;
+  background-color:coral;
+}
+#didactico{
+  border-radius: 50px;
+  background-color:yellow;
+}
+#software{
+  border-radius: 50px;
+  background-color:darkcyan;
+}
+#tecnologico{
+  border-radius: 50px;
+  background-color:grey;
+}
+#Ganadores{
+  border-radius: 50px;
+  background-color:gold
+}
+.content-proto{
+  text-align: center;
+}
+
+#uno{
+  grid-column: 1/1;
+  margin: 5px;
+  padding: 5px;
+}
+
+.dos{
+  grid-column: 2/2;
+  margin: 5px;
+  padding: 5px;
+}
+
+.tres{
+  grid-column: 3/3;
+  margin: 5px;
+  padding: 5px;
+}
+
+.cuatro{
+  grid-template-rows: 4/4;
+  margin: 5px;
+  padding: 5px;
+}
+.cinco{
+  margin: 5px;
+  padding: 5px;
+}
+.seis{
+  margin: 5px;
+  padding: 5px;
+}
+.siete{
+  margin: 5px;
+  padding: 5px;
+}
+.ocho{
+  margin: 5px;
+  padding: 5px;
+}
+.nueve{
+  margin: 5px;
+  padding: 5px;
+}
+.diez{
+  margin: 5px;
+  padding: 5px;
+}
+.once{
+  margin: 5px;
+  padding: 5px;
+}
+.doce{
+  margin: 5px;
+  padding: 5px;
+}
+.trece{
+  margin: 5px;
+  padding: 5px;
+}
+.cuatro{
+  margin: 5px;
+  padding: 5px;
+}
+.quice{
+  margin: 5px;
+  padding: 5px;
+}
+.empre-verde{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.empre-verde div{
+  border-style: solid;
+  border-color: #0C231E;
+  border-radius: 10px;
+}
+.empre-verde img{
+  border-radius: 10px;
+}
+
+.empre-social{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.empre-social div{
+  border-style: solid;
+  border-color: #0C231E;
+  border-radius: 10px;
+}
+.empre-social img{
+  border-radius: 10px;
+}
+
+.proto-didac{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.proto-didac div{
+  border-style: solid;
+  border-color: #0C231E;
+  border-radius: 10px;
+}
+.proto-didac img{
+  border-radius: 10px;
+}
+.proto-soft{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.proto-soft div{
+  border-style: solid;
+  border-color: #0C231E;
+  border-radius: 10px;
+}
+.proto-soft img{
+  border-radius: 10px;
+}
+.proto-tecno{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.proto-tecno div{
+  border-style: solid;
+  border-color: #0C231E;
+  border-radius: 10px;
+}
+.proto-tecno img{
+  border-radius: 10px;
+}
+.ganadores{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.ganadores div{
+  border-style: solid;
+  border-color: gold;
+  border-radius: 10px;
+}
+.verde{
+  grid-column: 1/1;
+  margin: 5px;
+  padding: 5px;
+}
+.social{
+  grid-column: 2/2;
+  margin: 5px;
+  padding: 5px;
+}
+.didac{
+  grid-column: 3/3;
+  margin: 5px;
+  padding: 5px;
+}
+.soft{
+  grid-column: 4/4;
+  margin: 5px;
+  padding: 5px;
+}
+.tecno{
+  grid-column: 5/5;
+  margin: 5px;
+  padding: 5px;
+}
+.footer-distributed {
+  position: relative;
+  background-color:#0C231E;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 30px 40px;
+  bottom: 0px;
+}
+
+.footer-distributed .footer-left h3{
+  text-align: left;
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p .footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+.footer-distributed p{
+  color: #8f9296;;
+}
+.footer-distributed p .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+#btn-flotante {
+	font-size: 16px; /* Cambiar el tamaño de la tipografia */
+	text-transform: uppercase; /* Texto en mayusculas */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: #ffffff; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: #E91E63; /* Color de fondo */
+	padding: 18px 30px; /* Relleno del boton */
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+#btn-flotante:hover {
+	background-color: #2c2fa5; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	#btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
